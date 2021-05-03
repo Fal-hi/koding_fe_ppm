@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* #Carousel */
+.carousel {
+  height: 90vh;
+}
+
+.carousel img {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* #Card Height */
+.card-height {
+  margin: 10px auto 4rem auto;
+}
+
+.card-height .card img {
+  width: 70%;
+  margin: auto;
+}
+
+/* #Card Width */
+.card-width {
+  margin: -40px auto 4rem auto;
+}
+
+.card-width .card img {
+  width: 100%;
+}
+
+/* #Card Center */
+.card-center {
+  margin: -40px auto 4rem auto;
+}
+
+/* #Footer */
+.footer {
+  padding: 1rem;
+}
+
+.footer ul.media-social {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer ul.media-social li {
+  margin: auto 10px;
+  border: 1px solid white;
+  border-radius: 15%;
+  transition: .5s;
+}
+
+.footer ul.media-social li:hover {
+  background-color: #eee;
+}
+
+.footer ul.media-social li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  margin: .2rem .2rem;
+  font-size: 1.5rem;
+}
+
+.footer ul.media-social li a:hover {
+  color: black;
+}
+
+.footer .signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -35px auto;
+}
+
+.footer .signup p {
+  font-weight: 500;
+}
+
+.footer .signup input[type=search] {
+    width: 40vw;
+}
+
+.footer .signup label {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .signup button {
+    width: 6rem;
+
+}
+
+.footer .caption {
+    color: white;
+    margin: 30px 30px;
+    text-align: center;
+}
+
+.footer .list-link {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer .list-link ul.links {
+    list-style: none;
+}
+
+.footer .list-link ul.links li {
+    text-align: center;
+}
+
+.footer .list-link ul.links li a{
+    cursor: pointer;
+    color: white;
+}
+
+.copyright {
+  background-color: black;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 1px;
+}
+
+.copyright p,
+.copyright p a {
+  color: white;
+  font-weight: 500;
+}
